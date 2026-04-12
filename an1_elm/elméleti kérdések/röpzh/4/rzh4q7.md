@@ -1,2 +1,10 @@
 #### 7. Milyen állítást tud mondani (tágabb értelemben) határértékkel bíró sorozatok összegéről?
-Tegyük fel, hogy $(a_n)$ és $(b_n)$ sorozatnak van határértéke és legyen: $$\lim(a_n)=:A \in \mathbb{\overline{R}} \text{ és } \lim(b_n)=:B \in \mathbb{\overline{R}}.$$ Ekkor az $(a_n+b_n)$ összeg-sorozatnak is van határértéke és: $$\lim(a_n+b_n) = \lim(a_n) + \lim(b_n) = A + B,$$ feltéve, ha az $A + B \in \mathbb{\overline{R}}$ összeg értelmezve van.
+Tegyük fel, hogy $(a_n)$ és $(b_n)$ sorozatnak van határértéke és legyen: 
+
+$$\lim(a_n)=:A \in \mathbb{\overline{R}} \text{ és } \lim(b_n)=:B \in \mathbb{\overline{R}}.$$
+
+Ekkor az $(a_n+b_n)$ összeg-sorozatnak is van határértéke és: 
+
+$$\lim(a_n+b_n) = \lim(a_n) + \lim(b_n) = A + B,$$ 
+
+feltéve, ha az $A + B \in \mathbb{\overline{R}}$ összeg értelmezve van.

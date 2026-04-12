@@ -1,0 +1,2 @@
+#### 4. Mi a teleszkopikus sor, és milyen állítást ismer a konvergenciájával kapcsolatban?
+A $\sum\limits_{n=1} \dfrac{1}{n(n+1)}$ *teleszkopikus sor* konvergens és összege 1, azaz: $$\sum\limits_{n=1}^{+\infty} \dfrac{1}{n(n+1)} = \dfrac{1}{1 \cdot 2} + \dfrac{1}{2 \cdot 3} + \dfrac{1}{3 \cdot 4} + ... = 1.$$

@@ -1,0 +1,2 @@
+#### 10. Legyen $q \in \mathbb{R}$. Mit tud mondani a $(q^n)$ sorozatról határérték szempontjából?
+Minden rögzített $q \in \mathbb{R}$ esetén a $(q^n)$ mértani sorozat határértékére a következők teljesülnek: $$\lim_{n \to \infty}q^n = \begin{cases}=0 \quad\quad\text{ha } |q|\lt 1 \\ =1 \quad \quad \text{ha } q = 1 \\ = +\infty \quad \text{ha } q \gt 1 \\ \text{nem létezik} \quad \text{ha } q \leq -1. \end{cases}$$

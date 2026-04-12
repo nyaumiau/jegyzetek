@@ -1,0 +1,2 @@
+#### 8. Milyen állítást tud mondani (tágabb értelemben) határértékkel bíró sorozatok szorzatáról?
+Tegyük fel, hogy $(a_n)$ és $(b_n)$ sorozatnak van határértéke és legyen: $$\lim(a_n)=:A \in \mathbb{\overline{R}} \text{ és } \lim(b_n)=:B \in \mathbb{\overline{R}}.$$ Ekkor az $(a_n \cdot b_n)$szorzat-sorozatnak is van határértéke és:$$\lim(a_n \cdot b_n) = \lim(a_n) \cdot \lim(b_n) = A \cdot B,$$feltéve, ha az $A \cdot B \in \mathbb{\overline{R}}$ szorzat értelmezve van.

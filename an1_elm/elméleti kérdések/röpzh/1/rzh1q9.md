@@ -2,5 +2,4 @@
 
 Legyen $H \subset \mathbb{R}$.
 
-$\exists$ max $H \space\space\Longleftrightarrow\space\space$ sup $H \in H$;
-*és ekkor:* sup $H =$ max $H$.
+$$\exists \text{max} H \space\space\Longleftrightarrow\space\space \sup H \in H \text{ , és ekkor: sup} H = \text{max} H.$$

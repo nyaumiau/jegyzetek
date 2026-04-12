@@ -1,2 +1,6 @@
 #### 7. Definiálja a cos függvényt!
-A $\sum\limits_{n=0}(-1)^n \cdot \dfrac{x^{2n}}{(2n)!}$ hatványsor $\forall x \in \mathbb{R}$ pontban abszolút konvergens. Az összegfüggvényét, vagyis a $$\cos x := \cos(x) := \sum\limits_{n=0}(-1)^n \cdot \dfrac{x^{2n}}{(2n)!} = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} + ... \space (x \in \mathbb{R})$$ függvényt *koszinuszfüggvénynek* nevezzük.
+A $\sum\limits_{n=0}(-1)^n \cdot \dfrac{x^{2n}}{(2n)!}$ hatványsor $\forall x \in \mathbb{R}$ pontban abszolút konvergens. Az összegfüggvényét, vagyis a 
+
+$$\cos x := \cos(x) := \sum\limits_{n=0}(-1)^n \cdot \dfrac{x^{2n}}{(2n)!} = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} + ... \space (x \in \mathbb{R})$$
+
+függvényt *koszinuszfüggvénynek* nevezzük.

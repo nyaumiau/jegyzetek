@@ -1,2 +1,6 @@
 #### 3. Mondjon példát olyan $(a_n), (b_n) : \mathbb{N} \rightarrow \mathbb{R}$ sorozatokra, amelyekre $\lim(a_n) = 0, \lim(b_n) = 0$ és a $\lim(a_n/b_n)$ határérték nem létezik.
-Legyen $(a_n) := \dfrac{(-1)^n}{n}$ és $(b_n) := \dfrac{1}{n}$. Ekkor $\lim(a_n)=lim(b_n)=0$ és: $$\dfrac{a_n}{b_n} = \dfrac{\dfrac{(-1)^n}{n}}{\dfrac{1}{n}} = \dfrac{(-1)^n}{n} \cdot \dfrac{n}{1} = \dfrac{(-1)^n\cdot n}{n} = (-1)^n.$$ Mivel a $(-1)^n$ határérték nem létezik, ezért a $\lim(\dfrac{a_n}{b_n})$ határérték sem létezik.
+Legyen $(a_n) := \dfrac{(-1)^n}{n}$ és $(b_n) := \dfrac{1}{n}$. Ekkor $\lim(a_n)=lim(b_n)=0$ és: 
+
+$$\dfrac{a_n}{b_n} = \dfrac{\dfrac{(-1)^n}{n}}{\dfrac{1}{n}} = \dfrac{(-1)^n}{n} \cdot \dfrac{n}{1} = \dfrac{(-1)^n\cdot n}{n} = (-1)^n.$$ 
+
+Mivel a $(-1)^n$ határérték nem létezik, ezért a $\lim(\dfrac{a_n}{b_n})$ határérték sem létezik.

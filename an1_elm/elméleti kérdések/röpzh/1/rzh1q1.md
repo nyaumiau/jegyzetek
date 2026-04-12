@@ -5,4 +5,4 @@ Tegyük fel, hogy az $A, B \subset \mathbb{R}$ halmazokra a következők teljes�
 
 Ekkor:
 
-$$\exists \; \xi \in \mathbb{R} : \forall a \in A, b \in B : a \leq \xi \leq b .$$
+$$\exists \xi \in \mathbb{R} : \forall a \in A, b \in B : a \leq \xi \leq b .$$

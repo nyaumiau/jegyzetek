@@ -1,2 +1,4 @@
-# jegyzetek
-némelyiknél picit összeszarta magát a markdown majd megoldom
+# Jegyzetek
+
+Jelenleg:
+- Analízis 1. elméleti kérdések

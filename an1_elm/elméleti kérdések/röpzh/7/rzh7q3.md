@@ -1,4 +1,8 @@
 #### 3. Mit jelent az, hogy a Cauchy-féle gyökkritérium bizonyos esetekben nem alkalmazható? Illusztrálja példákkal mindezt!
-Tegyük fel, hogy $$A:=\lim_{n \rightarrow +\infty} \sqrt[n]{|a_n|} = 1.$$ Ekkor például:
+Tegyük fel, hogy 
+
+$$A:=\lim_{n \rightarrow +\infty} \sqrt[n]{|a_n|} = 1.$$ 
+
+Ekkor például:
 - A $\sum \dfrac{1}{n}$ divergens sor esetében $|a_n| = \dfrac{1}{n}$, azaz $\lim\limits_{n \rightarrow +\infty} \sqrt[n]{|a_n|} = \lim\limits_{n \rightarrow +\infty} {\dfrac{1}{\sqrt[n]{n}}} = 1;$
 - A $\sum \dfrac{1}{n^2}$ konvergens sor esetében $|a_n| = \dfrac{1}{n^2}$, azaz $\lim\limits_{n \rightarrow +\infty} \sqrt[n]{|a_n|} = \lim\limits_{n \rightarrow +\infty} {\dfrac{1}{\sqrt[n]{n^2}}} = 1.$

@@ -1,2 +1,8 @@
 #### 5. Milyen állítást ismer konvergens sorozatok szorzatáról?
-Tegyük fel, hogy $(a_n)$ és $(b_n)$ sorozat konvergens és legyen: $$\lim(a_n)=:A \in \mathbb{R} \text{ és } \lim(b_n)=:B \in \mathbb{R}.$$ Ekkor: $$(a_n \cdot b_n) \text{ is konvergens és } \lim(a_n \cdot b_n) = \lim(a_n) \cdot \lim(b_n) = A \cdot B.$$
+Tegyük fel, hogy $(a_n)$ és $(b_n)$ sorozat konvergens és legyen: 
+
+$$\lim(a_n)=:A \in \mathbb{R} \text{ és } \lim(b_n)=:B \in \mathbb{R}.$$ 
+
+Ekkor: 
+
+$$(a_n \cdot b_n) \text{ is konvergens és } \lim(a_n \cdot b_n) = \lim(a_n) \cdot \lim(b_n) = A \cdot B.$$

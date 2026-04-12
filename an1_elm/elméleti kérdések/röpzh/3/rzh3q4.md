@@ -1,2 +1,6 @@
 #### 4. Milyen állítást ismer sorozatok esetén a konvergencia és a korlátosság kapcsolatáról?
-Ha az $(a_n)$ sorozat konvergens, akkor korlátos is, viszont, ha $(a_n)$ korlátos, akkor nem feltétlenül konvergens. Azaz: $$(a_n) \text{ konvergens }\implies (a_n) \text{ korlátos}.$$ Vagyis egy sorozat konvergenciájának a korlátosság *szükséges, de nem elégséges* feltétele.
+Ha az $(a_n)$ sorozat konvergens, akkor korlátos is, viszont, ha $(a_n)$ korlátos, akkor nem feltétlenül konvergens. Azaz: 
+
+$$(a_n) \text{ konvergens }\implies (a_n) \text{ korlátos}.$$
+
+Vagyis egy sorozat konvergenciájának a korlátosság *szükséges, de nem elégséges* feltétele.

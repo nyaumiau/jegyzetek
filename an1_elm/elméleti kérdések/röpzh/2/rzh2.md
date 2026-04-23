@@ -21,7 +21,7 @@ Legyenek $A, B$ nemüres halmazok. Ekkor az $f : A \rightarrow B$ jelölés azt 
 #### 4. Definiálja a halmaznak függvény által létesített képét!
 Legyen $f : A \rightarrow B$ egy adott függvény és $C \subset A$. Ekkor a $C$ *halmaz* $f$ *által létesített képén* az:
 
-$$f [C]:= \{f(x) \space|\space x \in C \} = \{y \in B \space | \space \exists x \in C : y = f(x) \} \subset B$$
+$$f [C]:= \\{ \space f(x) \space|\space x \in C \space \\} = \\{ \space y \in B \space | \space \exists x \in C : y = f(x) \space \\} \subset B$$
 
 halmazt értjük.
 Megállapodunk abban, hogy $f[\emptyset] = \emptyset.$
@@ -29,7 +29,7 @@ Megállapodunk abban, hogy $f[\emptyset] = \emptyset.$
 #### 5. Definiálja a halmaznak függvény által létesített ősképét!
 Legyen $f : A \rightarrow B$ egy adott függvény és $D \subset B$. Ekkor a $D$ *halmaz* $f$ *által létesített ősképén* az:
 
-$$f^{-1}[D]:= \{x \in D_f \space | \space f(x) \in D\} \subset A$$ 
+$$f^{-1}[D]:= \\{ \space x \in D_f \space | \space f(x) \in D \space \\} \subset A$$ 
 
 halmazt értjük.
 Megállapodunk abban, hogy $f^{-1}[\emptyset] = \emptyset$.
@@ -52,8 +52,8 @@ $$f^{-1} : R_f \ni y \mapsto x \space : \space f(x)=y$$
 
 Tegyük fel, hogy $f : A \rightarrow B$ és $g : C \rightarrow D$ olyan függvények, amelyekre:
 
-$$\{x \in D_g \space  | \space g(x) \in D_f\} \neq \emptyset.$$
+$$\\{\space x \in D_g \space  | \space g(x) \in D_f \space \\} \neq \emptyset.$$
 
 Ebben az esetben az $f$ (*külső*) és $g$ (*belső*) függvény *összetett függvényét* (vagy más szóval $f$ és $g$ *kompozícióját*) $f \circ g$ -vel jelöljük és így értelmezzük:
 
-$$f \circ g : \{x \in D_g \space  | \space g(x) \in D_f\} \rightarrow B, \space \space \space f \circ g(x) := f(g(x)).$$
+$$f \circ g := \\{ \space x \in D_g \space  | \space g(x) \in D_f \space \\} \rightarrow B, \space \space \space f \circ g(x) := f(g(x)).$$

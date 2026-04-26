@@ -1,4 +1,4 @@
 # Jegyzetek
 
 Jelenleg:
-- Analízis 1. elméleti kérdések a 10. röpzh-ig
+- Analízis 1. röpzh elméleti kérdés kidolgozva (kiv. 5/5, 11/3)

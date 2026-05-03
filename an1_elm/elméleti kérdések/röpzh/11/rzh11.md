@@ -9,7 +9,7 @@ Az $a \in D_f$ pont az $f$ függvény *elsőfokú szakadási helye* (vagyis $f$-
 $$\exists \lim_{a+0} f \text{ és } \exists \lim_{a-0} f \text{ , ezek végesek, de } \lim_{a+0} f \neq \lim_{a-0} f.$$
 
 #### 3. Mit tud mondani korlátos és zárt intervallumon értelmezett folytonos függvény értékkészletéről?
-Korlátos, eleme a függvény minimuma és maximuma, valamint minden olyan érték, ami köztük van.
+Egy korlátos és zárt intervallumon értelmezett folytonos függvény értékkészlete is korlátos.
 
 #### 4. Hogyan szól a Weierstrass-tétel?
 Egy korlátos és zárt intervallumon értelmezett folytonos függvénynek mindig van abszolút maximum- és minimumhelye, azaz:

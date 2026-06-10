@@ -37,7 +37,7 @@ végtelen sor összegeként.
 
 Ekkor:
 
-$$\sum_{n=0} \dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > \sum_{n=0} \alpha^{n}$$
+$$\sum_{n=0}^{\infty} \dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > \sum_{n=0}^{\infty} \alpha^{n}$$
 
 $$1 + \dfrac{\alpha}{1-\alpha} + \dfrac{(\dfrac{\alpha}{1-\alpha})^2}{2!} + ... > 1 + \alpha + \alpha^{2} + ...$$
 
@@ -53,6 +53,6 @@ $$\alpha (\dfrac{(\dfrac{\alpha}{1-\alpha})^2}{2!\alpha} + ...) > 0$$
 
 $$\dfrac{(\dfrac{\alpha}{1-\alpha})^2}{2!} + ... > 0$$
 
-$$\sum_{n=2} \dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > 0$$
+$$\sum_{n=2}^{\infty} \dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > 0$$
 
-Mivel $\alpha \in (0;1),$ ezért $\dfrac{\alpha}{1-\alpha} > 0,$ így minden $n$ esetén $\dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > 0,$ azaz a sor $(s_n)$ részletösszeg-sorozata pozitív tagú és monoton növekvő, vagyis $lim(s_n) \neq 0$. Ezzel igazoltuk az egyenlőtlenséget, így az eredeti feltevést is.
+Mivel $\alpha \in (0;1),$ ezért $\dfrac{\alpha}{1-\alpha} > 0,$ így minden $n \geq 2$ esetén $\dfrac{(\dfrac{\alpha}{1-\alpha})^n}{n!} > 0,$ azaz a sor $(s_n)$ részletösszeg-sorozata monoton növekvő, és $s_1 > 0$, így $lim(s_n) \gt 0$. Ezzel igazoltuk az egyenlőtlenséget, így az eredeti feltevést is.

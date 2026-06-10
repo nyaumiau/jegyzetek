@@ -1,6 +1,6 @@
 #### Nyílt címzés esetén, amennyiben törölt rést nem tartalmaz a tábla, milyen feltételekkel tudjuk kiszámolni a sikertelen és a sikeres keresések várható hosszának becslését? Adja meg a megfelelő becsléseket!
 
-Legyen $\alpha = \dfrac{n}{m},$ ahol $m$ a hasító tábla mérete, $n$ pedig a hasító táblában jelenleg szereplő elemek száma.
+Legyen $\alpha = \dfrac{n}{m},$ ahol $m$ a hasító tábla mérete, $n$ pedig a hasító táblában jelenleg tárolt elemek száma.
 
 Ekkor, ha *egyenletes hasítást* alkalmazunk, *nincsenek törölt rések* és $0 \lt \alpha \lt 1:$
 

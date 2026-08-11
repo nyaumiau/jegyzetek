@@ -55,8 +55,8 @@ $$\forall K \subset \mathbb{R} : \exists x \in A : x \gt K.$$
 #### 11.  Fogalmazza meg egyenlőtlenségekkel azt a tényt, hogy egy $\emptyset \neq A \subset \mathbb{R}$ halmaz korlátos!
 Egy $\emptyset \neq A \subset \mathbb{R}$ számhalmaz akkor és csak akkor korlátos (azaz alulról és felülről is korlátos), ha:
 
-$$\exists K \subset \mathbb{R} : \forall x \in A : | x | \leq K;$$vagy:
-$$\exists K \subset \mathbb{R} : \forall x \in A : -K \leq x \leq K.$$
+$$\exists K \in \mathbb{R} : \forall x \in A : | x | \leq K;$$vagy:
+$$\exists K \in \mathbb{R} : \forall x \in A : -K \leq x \leq K.$$
 
 #### 12. Fogalmazza meg a szuprémum elvet!
 Legyen $\ H \subset \mathbb{R}$ és tegyük fel, hogy: 

@@ -10,13 +10,13 @@ $$\exists \xi \in \mathbb{R} : \forall a \in A, b \in B : a \leq \xi \leq b .$$
 #### 2.  Írja le pozitív formában azt, hogy egy $\emptyset \neq A \subset \mathbb{R}$ halmaz felülről nem korlátos?
 Legyen $A \subset \mathbb{R}$ nemüres számhalmaz. Ekkor $A$ akkor és csak akkor felülről nem korlátos, ha:
 
-$$\forall K \subset \mathbb{R} : \exists x \in A : x \gt K.$$
+$$\forall K \in \mathbb{R} : \exists x \in A : x \gt K.$$
 
 #### 3.  Fogalmazza meg egyenlőtlenségekkel azt a tényt, hogy egy $\emptyset \neq A \subset \mathbb{R}$ halmaz korlátos!
 Egy $\emptyset \neq A \subset \mathbb{R}$ számhalmaz akkor és csak akkor korlátos (azaz alulról és felülről is korlátos), ha:
 
-$$\exists K \subset \mathbb{R} : \forall x \in A : | x | \leq K;$$vagy:
-$$\exists K \subset \mathbb{R} : \forall x \in A : -K \leq x \leq K.$$
+$$\exists K \in \mathbb{R} : \forall x \in A : | x | \leq K;$$vagy:
+$$\exists K \in \mathbb{R} : \forall x \in A : -K \leq x \leq K.$$
 
 #### 4. Fogalmazza meg a szuprémum elvet!
 Legyen $\ H \subset \mathbb{R}$ és tegyük fel, hogy: 

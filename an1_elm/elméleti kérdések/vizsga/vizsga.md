@@ -50,7 +50,7 @@ $$\exists \xi \in \mathbb{R} : \forall a \in A, b \in B : a \leq \xi \leq b .$$
 #### 10.  Írja le pozitív formában azt, hogy egy $\emptyset \neq A \subset \mathbb{R}$ halmaz felülről nem korlátos?
 Legyen $A \subset \mathbb{R}$ nemüres számhalmaz. Ekkor $A$ akkor és csak akkor felülről nem korlátos, ha:
 
-$$\forall K \subset \mathbb{R} : \exists x \in A : x \gt K.$$
+$$\forall K \in \mathbb{R} : \exists x \in A : x \gt K.$$
 
 #### 11.  Fogalmazza meg egyenlőtlenségekkel azt a tényt, hogy egy $\emptyset \neq A \subset \mathbb{R}$ halmaz korlátos!
 Egy $\emptyset \neq A \subset \mathbb{R}$ számhalmaz akkor és csak akkor korlátos (azaz alulról és felülről is korlátos), ha:

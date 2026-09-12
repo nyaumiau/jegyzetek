@@ -5,6 +5,7 @@ $$\exists r \gt 0 : K_r(a)=(a-r,a+r) \subset A.$$
 
 Jelölés: int $A := \\{ \space a \in A | a \space \text{belső pontja} \space A \text{-nak} \space \\}$
 
+
 #### 2. Mikor mondja azt, hogy egy $f \in \mathbb{R} \rightarrow \mathbb{R}$ függvény differenciálható valamely $a ∈ int D_f$ pontban?
 
 Az $f \in \mathbb{R} \rightarrow \mathbb{R}$ függvény az $a ∈ int D_f$ pontban **differenciálható** (vagy **deriválható**), ha:
@@ -16,3 +17,6 @@ Ezt $f'(a)$ -val jelöljük, és az $f$ függvény $a$ **pontbeli deriváltjána
 $$f'(a) := \lim_{h \rightarrow 0} \dfrac{f(a+h) - f(a)}{h} \in \mathbb{R}.$$
 
 Ezt a tényt a következőképpen fogjuk jelölni: $f \in D \\{a\\}.$
+
+
+#### 3. Mi a kapcsolat a pontbeli differenciálhatóság és a folytonosság között?

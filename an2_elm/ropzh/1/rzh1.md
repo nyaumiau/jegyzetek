@@ -37,6 +37,18 @@ mivel
 
 $$\lim_{x \rightarrow 0^{+}} \dfrac{abs(x) - abs(0)}{x - 0} = \lim_{x \rightarrow 0^{+}} \dfrac{|x|}{x} = \lim_{x \rightarrow 0^{+}} \dfrac{x}{x} = \lim_{x \rightarrow 0^{+}} 1 = 1$$
 
-$$\lim_{x \rightarrow 0^{-}} \dfrac{abs(x) - abs(0)}{x - 0} = \lim_{x \rightarrow 0^{-}} \dfrac{|x|}{x} = \lim_{x \rightarrow 0^{-}} \dfrac{-x}{x} = \lim_{x \rightarrow 0^{+}} -1 = -1$$
+$$\lim_{x \rightarrow 0^{-}} \dfrac{abs(x) - abs(0)}{x - 0} = \lim_{x \rightarrow 0^{-}} \dfrac{|x|}{x} = \lim_{x \rightarrow 0^{-}} \dfrac{-x}{x} = \lim_{x \rightarrow 0^{-}} -1 = -1$$
 
 Mivel a bal és jobb oldali határértékek nem egyeznek meg, ezért az $a=0$ pontban nem létezik a határérték.
+
+#### 5. Milyen tételt ismer két függvény szorzatának valamely pontbeli differenciálhatóságáról és a deriváltjáról?
+
+Tegyük fel, hogy $f,g \in D\\{a\\}$ valamilyen $a \in \text{int}(D_f \cap D_g)$ pontban. Ekkor:
+
+$$f \cdot g \in D_\\{a\\} \space \text{, és} \space (f \cdot g)'(a) = f'(a) \cdot g(a) + f(a) \cdot g'(a).$$
+
+#### 5. Milyen tételt ismer két függvény hányadosának valamely pontbeli differenciálhatóságáról és a deriváltjáról?
+
+Tegyük fel, hogy $f,g \in D\\{a\\}$ valamilyen $a \in \text{int}(D_f \cap D_g)$ pontban, valamint $g(a) \neq 0$. Ekkor:
+
+$$\dfrac{f}{g} \in D_\\{a\\} \space \text{, és} \space (\dfrac{f}{g})'(a) = \dfrac{f'(a) \cdot g(a) - f(a) \cdot g'(a)}{g^{2}(a)}.$$

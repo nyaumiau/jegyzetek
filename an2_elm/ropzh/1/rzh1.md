@@ -20,3 +20,9 @@ Ezt a tényt a következőképpen fogjuk jelölni: $f \in D \\{a\\}.$
 
 
 #### 3. Mi a kapcsolat a pontbeli differenciálhatóság és a folytonosság között?
+
+Tegyük fel, hogy $\space f \in \mathbb{R} \rightarrow \mathbb{R} \space$ és $\space a \in \text{int} D_f.$ Ekkor:
+
+$$1.) \space f \in D \\{a\\} \Longrightarrow \space f \in C \\{a\\}$$
+
+$$2.)\space \text{Az állítás megfordítása nem igaz.}$$

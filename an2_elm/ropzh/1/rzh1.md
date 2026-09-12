@@ -29,3 +29,14 @@ $$2.)\space \text{Az állítás megfordítása nem igaz.}$$
 
 #### 4. Adjon példát olyan függvényre, ami az $\space a \in \mathbb{R}\space$ pontban folytonos, de nem differenciálható!
 
+Példa: 
+
+$$\text{abs}\in C\\{0\\},\space \text{de }\space \text{abs} \notin D\\{0\\},$$
+
+mivel
+
+$$\lim_{x \rightarrow 0^{+}} \dfrac{abs(x) - abs(0)}{x - 0} = \lim_{x \rightarrow 0^{+}} \dfrac{|x|}{x} = \lim_{x \rightarrow 0^{+}} \dfrac{x}{x} = \lim_{x \rightarrow 0^{+}} 1 = 1$$
+
+$$\lim_{x \rightarrow 0^{-}} \dfrac{abs(x) - abs(0)}{x - 0} = \lim_{x \rightarrow 0^{-}} \dfrac{|x|}{x} = \lim_{x \rightarrow 0^{-}} \dfrac{-x}{x} = \lim_{x \rightarrow 0^{+}} -1 = -1$$
+
+Mivel a bal és jobb oldali határértékek nem egyeznek meg, ezért az $a=0$ pontban nem létezik a határérték.

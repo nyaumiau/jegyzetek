@@ -26,3 +26,6 @@ Tegyük fel, hogy $\space f \in \mathbb{R} \rightarrow \mathbb{R} \space$ és $\
 $$1.) \space f \in D \\{a\\} \Longrightarrow \space f \in C \\{a\\}$$
 
 $$2.)\space \text{Az állítás megfordítása nem igaz.}$$
+
+#### 4. Adjon példát olyan függvényre, ami az $\space a \in \mathbb{R}\space$ pontban folytonos, de nem differenciálható!
+

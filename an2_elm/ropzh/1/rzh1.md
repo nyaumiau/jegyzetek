@@ -58,3 +58,21 @@ $$\dfrac{f}{g} \in D_\\{a\\} \space \text{, és} \space (\dfrac{f}{g})'(a) = \df
 Tegyük fel, hogy $f, g \in \mathbb{R} \rightarrow \mathbb{R}, R_g \subset D_f, \space$ és egy $a \in \text{int}D_g\space$ pontban $g\in D\\{a\\},$ valamint $f \in D\\{g(a)\\}.$ Ekkor $f \circ g \in D\\{a\\}, \space$ és 
 
 $$(f \circ g)'(a) = f'(g(a)) \cdot g'(a)$$
+
+#### 7. Mi az exp, sin, cos függvények deriváltfüggvénye?
+
+Legyen:
+
+$$\text{exp}x:=\sum_{n=0}^{+\infty} \dfrac{x^n}{n!} \space(x \in \mathbb{R})$$
+
+$$\text{sin}x:=\sum_{n=0}^{+\infty} (-1)^n \dfrac{x^{2n+1}}{(2n+1)!} \space(x \in \mathbb{R})$$
+
+$$\text{cos}x:=\sum_{n=0}^{+\infty} (-1)^n \dfrac{x^{2n}}{(2n)!} \space(x \in \mathbb{R})$$
+
+Az exp, sin, cos függvények deriválhatóak és:
+
+$$\text{exp}'(x) = (e^x)' = e^x \space (x \in \mathbb{R})$$
+
+$$\text{sin}'(x) = cosx \space (x \in \mathbb{R})$$
+
+$$\text{cos}'(x) = -sinx \space (x \in \mathbb{R})$$

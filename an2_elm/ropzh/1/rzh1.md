@@ -52,3 +52,9 @@ $$f \cdot g \in D_\\{a\\} \space \text{, és} \space (f \cdot g)'(a) = f'(a) \cd
 Tegyük fel, hogy $f,g \in D\\{a\\}$ valamilyen $a \in \text{int}(D_f \cap D_g)$ pontban, valamint $g(a) \neq 0$. Ekkor:
 
 $$\dfrac{f}{g} \in D_\\{a\\} \space \text{, és} \space (\dfrac{f}{g})'(a) = \dfrac{f'(a) \cdot g(a) - f(a) \cdot g'(a)}{g^{2}(a)}.$$
+
+#### 6. Milyen tételt ismer két függvény kompozíciójának valamely pontbeli differenciálhatóságáról és a deriváltjáról?
+
+Tegyük fel, hogy $f, g \in \mathbb{R} \rightarrow \mathbb{R}, R_g \subset D_f, \space$ és egy $a \in \text{int}D_g\space$ pontban $g\in D\\{a\\},$ valamint $f \in D\\{g(a)\\}.$ Ekkor $f \circ g \in D\\{a\\}, \space$ és 
+
+$$(f \circ g)'(a) = f'(g(a)) \cdot g'(a)$$

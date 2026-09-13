@@ -76,3 +76,13 @@ $$\text{exp}'(x) = (e^x)' = e^x \space (x \in \mathbb{R})$$
 $$\text{sin}'(x) = cosx \space (x \in \mathbb{R})$$
 
 $$\text{cos}'(x) = -sinx \space (x \in \mathbb{R})$$
+
+#### 8. Milyen tételt ismer hatványsor összegfüggvényének differenciálhatóságáról és a deriváltjáról?
+
+Tegyük fel, hogy a $\sum_{n=0} \alpha_n(x-a)^n \space(x \in \mathbb{R}) \space$ hatványsor R konvergenciasugara pozitív, és legyen 
+
+$$f(x) := \sum_{n=0}^{+\infty} \alpha_n(x-a)^n \space(x \in K_R(a))$$
+
+Ekkor minden $x \in K_R(a)$ pontban $f \in D\\{x\\},$ és 
+
+$$f'(x) := \sum_{n=0}^{+\infty} n\alpha_n(x-a)^{n-1} \space(\forall x \in K_R(a))$$

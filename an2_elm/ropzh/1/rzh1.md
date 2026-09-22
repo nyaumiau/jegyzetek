@@ -85,4 +85,4 @@ $$f(x) := \sum_{n=0}^{+\infty} \alpha_n(x-a)^n \space(x \in K_R(a))$$
 
 Ekkor minden $x \in K_R(a)$ pontban $f \in D\\{x\\},$ és 
 
-$$f'(x) := \sum_{n=0}^{+\infty} n\alpha_n(x-a)^{n-1} \space(\forall x \in K_R(a))$$
+$$f'(x) := \sum_{n=1}^{+\infty} n\alpha_n(x-a)^{n-1} \space(\forall x \in K_R(a))$$

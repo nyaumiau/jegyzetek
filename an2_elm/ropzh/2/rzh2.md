@@ -19,3 +19,13 @@ Legyen $f \in \mathbb{R} \rightarrow \mathbb{R} \space \text{és} \space a \in \
 $$f \in \text{D}\\{a\\} \Longleftrightarrow \exists A \in \mathbb{R} \text{ és } \exists \epsilon : D_f \rightarrow \mathbb{R}, \lim_{a} \epsilon = 0 : f(x)-f(a) = A \cdot (x-a) + \epsilon (x) (x-a)$$
 
 és $A = f'(a).$
+
+#### 3. Mi az érintő definíciója?
+
+Az $f \in \mathbb{R} \rightarrow \mathbb{R}$ függvény grafikonjának az $(a,f(a))$ pontban van érintője, ha $f \in \text{D}\\{a\\}.$ Az f függvény grafikonjának $(a,f(a))$ pontbeli érintőjén az 
+
+$$y = f'(a) \cdot (x-a) + f(a)$$
+
+egyenletű egyenest értjük.
+
+

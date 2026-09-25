@@ -39,3 +39,19 @@ $$\text{b) egy } a \in \text{ I pontban } f \in \text{D}\\{a\\} \text{ és } f'(
 Ekkor az $f^{-1}$ inverz függvény differenciálható a $b := f(a)$ pontban, és:
 
 $$(f^{-1})'(b)=\dfrac{1}{f'(a)} = \dfrac{1}{f'(f^{-1}(b))}$$
+
+#### 5. Definiálja a jobb oldali derivált fogalmát!
+
+Legyen $f \in \mathbb{R} \rightarrow \mathbb{R}, a \in D_f.$ Tegyük fel, hogy $\exists \delta > 0: [a,a+\delta) \subset D_f.$ Azt mondjuk, hogy $f$ az $a$ pontban jobbról deriválható, ha 
+
+$$\text{létezik és véges a } \lim_{x \rightarrow a^+}\dfrac{f(x)-f(a)}{x-a} \text{ határérték. }$$
+
+Ezt az $f$ függvény $a$ pontbeli jobb oldali deriváltjának nevezzük, és $f_{+}'(a)$-val jelöljük.
+
+#### 6. Definiálja a bal oldali derivált fogalmát!
+
+Legyen $f \in \mathbb{R} \rightarrow \mathbb{R}, a \in D_f.$ Tegyük fel, hogy $\exists \delta > 0: (a-\delta,a] \subset D_f.$ Azt mondjuk, hogy $f$ az $a$ pontban balról deriválható, ha 
+
+$$\text{létezik és véges a } \lim_{x \rightarrow a^-}\dfrac{f(x)-f(a)}{x-a} \text{ határérték. }$$
+
+Ezt az $f$ függvény $a$ pontbeli bal oldali deriváltjának nevezzük, és $f_{-}'(a)$-val jelöljük.

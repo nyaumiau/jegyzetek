@@ -28,4 +28,14 @@ $$y = f'(a) \cdot (x-a) + f(a)$$
 
 egyenletű egyenest értjük.
 
+#### 4. Írja le az inverz függvény differenciálhatóságáról szóló tételt!
 
+Legyen $\text{I} \subset \mathbb{R}$ nyílt intervallum és $f : \text{I} \rightarrow \mathbb{R}.$ Tegyük fel, hogy:
+
+$$\text{a) f szigorúan monoton és folytonos I-n}$$
+
+$$\text{b) egy } a \in \text{ I pontban } f \in \text{D}\\{a\\} \text{ és } f'(a) \neq 0.$$
+
+Ekkor az $f^{-1}$ inverz függvény differenciálható a $b := f(a)$ pontban, és:
+
+$$(f^{-1})'(b)=\dfrac{1}{f'(a)} = \dfrac{1}{f'(f^{-1}(b))}$$

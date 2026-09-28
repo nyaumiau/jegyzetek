@@ -69,3 +69,9 @@ Legyen ekkor
 $$f''(a) := (f')'(a)$$
 
 az $f$ függvény $a$-beli második deriváltja. 
+
+#### 8. Mondja ki a Rolle-tételt!
+
+Legyen $a,b \in \mathbb{R}$ és $a < b.$ Ekkor:
+
+$$f \in C[a,b], f \in D(a,b), f(a)=f(b) \Longrightarrow \exists \xi \in (a,b): f'(\xi) = 0.$$

@@ -75,3 +75,15 @@ az $f$ függvény $a$-beli második deriváltja.
 Legyen $a,b \in \mathbb{R}$ és $a < b.$ Ekkor:
 
 $$f \in C[a,b], f \in D(a,b), f(a)=f(b) \Longrightarrow \exists \xi \in (a,b): f'(\xi) = 0.$$
+
+#### 9. Mondja ki a Lagrange-féle középértéktételt!
+
+Legyen $a,b \in \mathbb{R}$ és $a < b.$ Ekkor:
+
+$$f \in C[a,b], f \in D(a,b) \Longrightarrow \exists \xi \in (a,b): f'(\xi) = \dfrac{f(b)-f(a)}{b-a}$$
+
+#### 10. Mondja ki a Cauchy-féle középértéktételt!
+
+Legyen $a,b \in \mathbb{R}$ és $a < b.$ Ekkor:
+
+$$f \in C[a,b], f \in D(a,b), \forall x \in (a,b): g'(x) \neq 0 \Longrightarrow \exists \xi \in (a,b): \dfrac{f'(\xi)}{g'(\xi)} = \dfrac{f(b)-f(a)}{g(b)-g(a)}.$$

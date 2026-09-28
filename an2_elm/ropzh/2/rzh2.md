@@ -55,3 +55,17 @@ Legyen $f \in \mathbb{R} \rightarrow \mathbb{R}, a \in D_f.$ Tegyük fel, hogy $
 $$\text{létezik és véges a } \lim_{x \rightarrow a^-}\dfrac{f(x)-f(a)}{x-a} \text{ határérték. }$$
 
 Ezt az $f$ függvény $a$ pontbeli bal oldali deriváltjának nevezzük, és $f_{-}'(a)$-val jelöljük.
+
+#### 7. Mikor mondjuk azt, hogy egy függvény kétszer differenciálható egy pontban?
+
+Legyen $f \in \mathbb{R} \rightarrow \mathbb{R}$ és $a \in \text{int}D_f.$ Azt mondjuk, hogy $f$ kétszer deriválható az $a \in \text{int}D_f$ pontban (jelölése: $f \in D^2\\{a\\}$), ha:
+
+$$\text{ 1.) a függvény deriválható az } a \in \text{int}D_f \text{ pont egy környezetében, azaz } \exists r > 0: f \in D(K_r(a))\text{ ,és}$$
+
+$$\text{ 2.) az } f' \text{ deriváltfüggvény deriválható } a \text{-ban, azaz } f' \in D\\{a\\}.$$
+
+Legyen ekkor
+
+$$f''(a) := (f')'(a)$$
+
+az $f$ függvény $a$-beli második deriváltja. 

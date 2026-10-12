@@ -25,3 +25,18 @@ Az $f(x):=x^3$ függvény esetén:
 2.) $(x^3)' = 3x^2 \rightarrow a = 0$ esetén $3 \cdot 0^2 = 0 \space \checkmark$
 
 De $f$ szigorúan monoton növekvő $\mathbb{R}$-en, így az $a = 0$ pontban nem lehet lokális szélsőértéke.
+
+#### 5.) Milyen szükséges és elégséges feltételt ismer differenciálható függvény monoton növekedésével kapcsolatban?
+Legyen $(a,b) \subset \mathbb{R}\space$ egy **nyílt intervallum**. Tegyük fel, hogy $f \in D(a,b).$ Ekkor:
+
+$$f \text{ monoton növekvő } \space (a,b)\text{-n } \Longleftrightarrow f' \geq 0 \space (a,b)\text{-n }$$
+
+#### 6.) Milyen elégséges feltételt ismer differenciálható függvény szigorú monoton növekedésével kapcsolatban?
+Legyen $(a,b) \subset \mathbb{R}\space$ egy **nyílt intervallum**. Tegyük fel, hogy $f \in D(a,b).$ Ekkor:
+
+$$f' \gt 0 \space (a,b)\text{-n } \Longrightarrow f \text{ szigorúan monoton nő } (a,b)\text{-n }$$
+
+#### 7.) Milyen szükséges és elégséges feltételt ismer differenciálható függvény szigorú monoton növekedésével kapcsolatban?
+Legyen $(a,b) \subset \mathbb{R}\space$ egy **nyílt intervallum**. Tegyük fel, hogy $f \in D(a,b).$ Ekkor:
+
+$$f \text{ szigorúan monoton } \space (a,b)\text{-n } \Longleftrightarrow f' \geq 0 \text{ , és } \space (a,b) \text{ -nek nincsen olyan részintervalluma, ahol } f' \text{ azonosan } 0.$$

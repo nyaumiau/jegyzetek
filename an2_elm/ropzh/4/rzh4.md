@@ -52,3 +52,17 @@ $$f \text{ konvex } I \text{-n} \Longleftrightarrow \forall a \in I : f(x) \geq 
 Tegyük fel, hogy $I \subset \mathbb{R}$ nyílt intervallum és $f \in \text{D}(I).$ Ekkor:
 
 $$f \text{ konkáv } I \text{-n} \Longleftrightarrow \forall a \in I : f(x) \leq e_{f,a}(x).$$
+
+#### 10.) Mikor mondjuk, hogy egy függvénynek aszimptotája van a $+\infty$-ben?
+Legyen $a \in \mathbb{R}$ és $f : (a,+\infty) \rightarrow \mathbb{R}.$ Azt mondjuk, hogy $f$-nek van aszimptotája $(+\infty)$-ben, ha:
+
+$$\exists l(x) = Ax + b \space (x \in \mathbb{R}) \space : \space \lim_{x \rightarrow +\infty}(f(x)-l(x)) = 0$$
+
+Ekkor az $l(x) \space (x \in \mathbb{R}) \space$ egyenes az $f$ aszimptotája $(+\infty)$-ben.
+
+#### 11.) Hogyan szól a $+\infty$-beli aszimptota létezésére vonatkozó feltétel?
+Az $f : (a,+\infty) \rightarrow \mathbb{R}$ függvénynek akkor és csak akkor van aszimptotája $(+\infty)$-ben, ha léteznek és végesek a:
+
+$$\lim_{x \rightarrow +\infty} \dfrac{f(x)}{x} =: A \in \mathbb{R} \space , \space \lim_{x \rightarrow +\infty}(f(x)-Ax) =: B \in \mathbb{R} \space \text{ határértékek. }$$
+
+Ekkor az $l(x) = Ax + B \space (x \in \mathbb{R}) \space$ egyenes az $f$ aszimptotája $(+\infty)$-ben.

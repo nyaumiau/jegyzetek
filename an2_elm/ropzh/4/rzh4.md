@@ -37,3 +37,18 @@ Tegyük fel, hogy $I \subset \mathbb{R}$ nyílt intervallum és $f \in \text{D}^
 
 $$1.) f \text{ konkáv } I \text{-n} \Longleftrightarrow f'' \leq 0 I \text{-n}.$$
 $$2.) f'' < 0 I \text{-n} \Longrightarrow f \text{ szigorúan konkáv } I \text{-n}.$$
+
+#### 7.) Mi az inflexiós pont definíciója?
+Legyyen $I$ nyílt intervallum és tegyük fel, hogy $f \in \text{D}(I).$ Azt mondjuk, hogy a $c \in I$ pont az $f$ függvénynek inflexiós pontja, ha:
+
+$$\exists \delta > 0 : f \text{ konvex } (c-\delta,c] \text{-n és konkáv } [c, c+\delta) \text{-n, vagy fordítva.}.$$
+
+#### 8.) Mondja ki a konvexitás és az érintő kapcsolatára vonatkozó tételt!
+Tegyük fel, hogy $I \subset \mathbb{R}$ nyílt intervallum és $f \in \text{D}(I).$ Ekkor:
+
+$$f \text{ konvex } I \text{-n} \Longleftrightarrow \forall a \in I : f(x) \geq e_{f,a}(x).$$
+
+#### 9.) Mondja ki a konkávitás és az érintő kapcsolatára vonatkozó tételt!
+Tegyük fel, hogy $I \subset \mathbb{R}$ nyílt intervallum és $f \in \text{D}(I).$ Ekkor:
+
+$$f \text{ konkáv } I \text{-n} \Longleftrightarrow \forall a \in I : f(x) \leq e_{f,a}(x).$$
